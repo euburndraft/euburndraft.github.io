@@ -6,6 +6,7 @@
 [CERTEC](https://certec.upc.edu/en) (Centre d'Estudis del Risc Tecnològic) hosted is hosted at the Universitat Politècnica de Catalunya (UPC). It was created in 1992 and is located at the new Diagonal Besòs Campus in Barcelona. CERTEC has a Wildfire Research Programme whose aim is to provide technological and scientific solutions for a sustainable cost-effective wildfire management. One specific objective of this Programme is to improve current wildfire airborne monitoring systems by optimizing infrared technology outcomes.
 CERTEC is the host of 3DFireLab. Ronan Paugam will work here with the help of Prof Elsa Pastor who has a strong experience in fire monitoriting and modelling and Prof Eulalia Planas, head of CERTEC, who is providing expertise in fire physical and chemical processes.
 <br>
+<br>
 
 ## CESBIO & LA at UPS:
 [![CESBIO](/img/logo/logo_cesbio.jpeg){: class="img-left-100"}](https://www.cesbio.cnrs.fr/en/homepage-2/)
@@ -15,6 +16,7 @@ The group of Prof Jean Philippe Gastellu-Etchegorry which develops the radiative
 [![LA](/img/logo/logo_LA.jpeg){: class="img-left-100"}](https://www.aero.obs-mip.fr/)
 The Laboratoire d'Aérologie ([LA](https://www.aero.obs-mip.fr)) is joint research unit hosted at  Université Paul Sabatier (UPS) in Toulouse. Its scientific activity aims to observe, model and understand the dynamic and physico-chemical processes that govern the evolution of the atmosphere and the coastal ocean.
 Prof Céline Mari is involved in 3DFireLab to support the atmospheric modelling development of the project, in particular through the [MesoNH](http://mesonh.aero.obs-mip.fr/mesonh54) model.
+<br>
 <br>
 
 ## CERFACS:

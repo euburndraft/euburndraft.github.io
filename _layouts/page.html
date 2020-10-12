@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav2.html %}
+
+  <section class="page-text"  id="tag">
+
+  <div class="page-title">
+
+  <div class="inner">
+    <a href = "{{ site.url }}/#services" >
+      <div class='icon-backbutton'> </div>
+    </a>
+  </div>
+
+  <div class="inner">
+    <span>{{ page.title }}</span>
+  </div>
+
+  <br>
+  <br>
+
+  {% assign sortedPosts = site.posts | sort: 'title' %}
+  {% assign subcat_sortedPosts = sortedPosts | where: 'tag_category',page.titlePost %}
+
+  <div class='text-overWhite'>
+  {{ content }}
+  </div>
+  {% assign dish_sortedPosts =  subcat_sortedPosts | where: 'tag_plat','na' %}
+  {% assign dish_length  = dish_sortedPosts | size %}
+  {% if dish_length > 0 %}
+    {% for post in dish_sortedPosts %}
+        <p style="margin:0">
+        <a class = "page-list" href="{{ post.url }}/#tag">{{ post.title }}</a>
+        <!-- <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p> -->
+        </p>
+    {% endfor %}
+  {% endif %}
+
+  {% assign dish_sortedPosts =  subcat_sortedPosts | where: 'tag_plat','sauce' %}
+  {% assign dish_length  = dish_sortedPosts | size %}
+  {% if dish_length > 0 %}
+    <h2 class="page-title"> Sauces et Condiments </h2>
+    {% for post in dish_sortedPosts %}
+        <p style="margin:0">
+        <a class = "page-list" href="{{ post.url }}/#tag">{{ post.title }}</a>
+        <!-- <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p> -->
+        </p>
+    {% endfor %}
+  {% endif %}
+
+  {% assign dish_sortedPosts =  subcat_sortedPosts | where: 'tag_plat','entree' %}
+  {% assign dish_length  = dish_sortedPosts | size %}
+  {% if dish_length > 0 %}
+    <h2 class="page-title"> Entrées </h2>
+    {% for post in dish_sortedPosts %}
+        <p style="margin:0">
+        <a class = "page-list" href="{{ post.url }}/#tag">{{ post.title }}</a>
+        <!-- <p><small><strong>{{ post.date | date: "%B %Y" }}</strong>: {{ post.description}}. </small></p> -->
+        </p>
+    {% endfor %}
+  {% endif %}
+
+  {% assign dish_sortedPosts =  subcat_sortedPosts | where: 'tag_plat','platLegume' %}
+  {% assign dish_length  = dish_sortedPosts | size %}
+  {% if dish_length > 0 %}
+    <h2 class="page-title"> Plats de Légume </h2>
+    {% for post in dish_sortedPosts %}
+        <p style="margin:0">
+        <a class = "page-list" href="{{ post.url }}/#tag">{{ post.title }}</a>
+        </p>
+    {% endfor %}
+  {% endif %}
+
+
+  {% assign dish_sortedPosts =  subcat_sortedPosts | where: 'tag_plat','platViande' %}
+  {% assign dish_length  = dish_sortedPosts | size %}
+  {% if dish_length > 0 %}
+    <h2 class="page-title"> Plats de Viande </h2>
+    {% for post in dish_sortedPosts %}
+        <p style="margin:0">
+        <a class = "page-list" href="{{ post.url }}/#tag">{{ post.title }}</a>
+        </p>
+    {% endfor %}
+  {% endif %}
+
+  {% assign dish_sortedPosts =  subcat_sortedPosts | where: 'tag_plat','platPoisson' %}
+  {% assign dish_length  = dish_sortedPosts | size %}
+  {% if dish_length > 0 %}
+    <h2 class="page-title"> Plats de Poisson </h2>
+    {% for post in dish_sortedPosts %}
+        <p style="margin:0">
+        <a class = "page-list" href="{{ post.url }}/#tag">{{ post.title }}</a>
+        </p>
+    {% endfor %}
+  {% endif %}
+
+  {% assign dish_sortedPosts =  subcat_sortedPosts | where: 'tag_plat','dessert' %}
+  {% assign dish_length  = dish_sortedPosts | size %}
+  {% if dish_length > 0 %}
+    <h2 class="page-title"> Desserts </h2>
+    {% for post in dish_sortedPosts %}
+        <p style="margin:0">
+        <a class = "page-list" href="{{ post.url }}/#tag">{{ post.title }}</a>
+        </p>
+    {% endfor %}
+  {% endif %}
+
+  <br>
+  <br>
+
+  {% include scripts.html %}
+
+</section>
+
+</body>
+
+</html>

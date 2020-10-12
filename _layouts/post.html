@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav.html %}
+  {% include header.html %}
+
+  <section class="container"  id="tag">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+
+            <h1 class="section-heading">{{ page.title }}</h1>
+
+          {% if  page.image != "pas d'image" %}
+            <img class='image-recette' src="{{ url }}/{{ page.image }}" alt="pas encore d'image">
+            <br>
+          {% endif %}
+          <br>
+
+          <div class="post-content">
+          {{ content }}
+          </div>
+
+          {% include scripts.html %}
+          <br>
+
+        </div>
+      </div>
+
+    </section>
+
+  </body>
+
+</html>

@@ -1,0 +1,183 @@
+<head>
+
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.1.1/angular.min.js"></script>
+
+      <!-- <link rel="stylesheet" type="text/css" href="/css/result-light.css"> -->
+
+        <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/d3-dtree/dist/dTree.min.js"></script>
+
+    <style id="compiled-css" type="text/css">
+
+    body {
+  	  font: 10px sans-serif;
+  	}
+
+  	.linage {
+  	  fill: none;
+  	  stroke: #000;
+  	}
+
+  	.marriage {
+  	  fill: none;
+  	  stroke: black;
+  	}
+
+  	.man {
+  	  background-color: #bbb1ab;
+  	  border-style: solid;
+  	  border-width: 1px;
+  	  box-sizing: border-box;
+  	}
+
+  	.woman {
+  	  background-color: #f0914f;
+  	  border-style: solid;
+  	  border-width: 1px;
+  	  box-sizing: border-box;
+  	}
+
+  	.emphasis {
+  	  font-style: italic;
+  	}
+
+  	p {
+  	  padding: 0;
+  	  margin: 0;
+  	}
+
+  	svg {
+  	  border-style: solid;
+  	  border-width: 1px;
+  	}
+
+    </style>
+
+
+    <!-- TODO: Missing CoffeeScript 2 -->
+
+    <script type="text/javascript">//<![CDATA[
+
+  window.onload=function(){
+
+  treeData = [
+    {
+    "name": "toto",
+    "class": "man",
+    "marriages": [{
+      "spouse": {
+        "name": "titi",
+        "class": "woman",},
+        "children": [
+          {"name": "James", "class": "man"},
+          {"name": "James", "class": "man"},
+          {"name": "James", "class": "man", "marriages": [{ "spouse":{"name": "Emma", "class": "woman", "id":9000, "parent":[{"name":"dd","class":'man'},]}, "children": [ {"name": "Jasper", "class": "man", },]  }] },
+          {"name": "James", "class": "man"},
+
+        ],
+    },
+],},
+
+    {
+    "name": "Niclas Alexandre <br/> de la poignee de la porte",
+    "class": "man",
+    "textClass": "emphasis",
+    "marriages": [{
+      "spouse": {
+        "name": "Iliana",
+        "class": "woman",
+        "extra": {
+          "nickname": "Illi"
+        }
+      },
+      "children": [{
+        "name": "James",
+        "class": "man",
+        "marriages": [{
+          "spouse": {
+            "name": "Alexandra",
+            "class": "woman"
+          },
+          "children": [{
+            "name": "Eric",
+            "class": "man",
+            "marriages": [{
+              "spouse": {
+                "name": "Eva",
+                "class": "woman"
+              }
+            }]
+          }, {
+            "name": "Jane <br/> Tartampion",
+            "class": "woman"
+          }, {
+            "name": "Jasper",
+            "class": "man",
+          }, {
+            "name": "Emma",
+            "class": "woman", "id":9000
+          }, {
+            "name": "Julia",
+            "class": "woman"
+          }, {
+            "name": "Jessica",
+            "class": "woman"
+          }]
+        }]
+      }]
+    }]
+  }]
+
+
+
+  dTree.init(treeData, {
+    target: "#graph",
+    debug: true,
+    height: 500,
+    width: 900,
+
+    callbacks: {
+      nodeClick: function(name, extra) {
+        console.log(name);
+      },
+      textRenderer: function(name, extra, textClass) {
+        // THis callback is optinal but can be used to customize
+        // how the text is rendered without having to rewrite the entire node
+        // from screatch.
+        if (extra && extra.nickname)
+          name = name + " (" + extra.nickname + ")";
+        return "<p  align='center' class='" + textClass + "'>" + name + "</p>";
+      },
+      nodeRenderer: function(name, x, y, height, width, extra, id, nodeClass, textClass, textRenderer) {
+        // This callback is optional but can be used to customize the
+        // node element using HTML.
+        let node = '';
+        node += '<div ';
+        node += 'style="height:100%; width:100%;" ';
+        node += 'class="' + nodeClass + '" ';
+        node += 'id="node' + id + '">\n';
+        node += textRenderer(name, extra, textClass);
+        node += '</div>';
+        return node;
+      }
+    },
+
+    margin: {
+      top: 10,
+      right: 10,
+      bottom: 10,
+      left: 10
+    },
+    nodeWidth: 200,
+
+  });
+
+
+      }
+
+    //]]>
+
+  </script>
+
+</head>

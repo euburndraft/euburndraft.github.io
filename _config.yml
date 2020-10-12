@@ -1,0 +1,23 @@
+# Site settings
+title: 3dFireLab
+email:
+description: > # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog/
+#url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://3dfirelab.github.io" # the base hostname & protocol for your site
+
+author:
+  name:           'Ronan Paugam'
+  orcid: "https://orcid.org/0000-0001-6429-6910"
+  github: "3dfirelab"
+  researchgate: "https://www.researchgate.net/profile/Ronan_Paugam"
+  twitter: "https://twitter.com/3dfirelab"
+
+# Permalinks
+permalink:        pretty
+
+# Build settings
+markdown: kramdown
+
+#google analytics
+#google_analytics: UA-173536521-1

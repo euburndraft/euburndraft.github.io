@@ -6,7 +6,7 @@
 radiative transfer in open landscape scale vegetation fire. The end objective is to help improving fire monitoring Earth Observation (EO) products.
 
 ![botswana-1](/img/fronts/geoRef_colorComposite_20032810910_T.png){: class="img-50perc-left"} ![botswana-2](/img/fronts/geoRef_MIR_20032810910_T.png){: class="img-50perc-left"}
-*Example of a fire observed by [MODIS Terra](https://terra.nasa.gov/about/terra-instruments/modis) over Botswana on the 8th of Oct 2003. Images show the true color composite image derived form MODIS RGB bands and the Middle Infra Red (MIR) band (3.9 mu). Also reported on the image are fire activity information estimated from EO products: plume height derived from PRM (Plume Rise Model), Fire Radiative Power (FRP), and Active Fire Aera (AFarea). See Paugam et al. 2015 for more info on these products.*
+*Example of a fire observed by [MODIS Terra](https://terra.nasa.gov/about/terra-instruments/modis) over Botswana on the 8th of Oct 2003. Images show the true color composite image derived form MODIS RGB bands and the Middle Infra Red (MIR) band (3.9 mu). The green crosses on the later image show the fire hot spot detected by MODIS fire product. Also reported on the image are fire activity information estimated from EO products: plume height derived from PRM (Plume Rise Model), Fire Radiative Power (FRP), and Active Fire Aera (AFarea). See Paugam et al. 2015 for more info on these products.*
 
 3DfireLab builds on an initial system designed by Ronan Paugam during a previous
 European Space Agency project (run at Kings College London with Prof Martin Wooster), and the coupling of models of fire spread, atmospherics dynamics and radiative transfer

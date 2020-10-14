@@ -13,7 +13,7 @@ CERTEC is the host of 3DFireLab. Ronan Paugam will work here with the help of Pr
 [CESBIO](https://www.cesbio.cnrs.fr/en/homepage-2/) (Centre d’Etudes Spatiales de la Biosphère ) is a french joint research unit attached to the Université Paul Sabatier (UPS) in Toulouse. Its research is axed on the functioning of continental surfaces and their interactions with climate and humans, relying heavily on satellite data.
 The group of Prof Jean Philippe Gastellu-Etchegorry which develops the radiative transfer model [DART](https://dart.omp.eu/#/), is involved in 3DFireLab to provide experience in radiative transfer and support for the integration of fire scene in the DART model.
 
-[![LA](/img/logo/logo_LA.jpeg){: class="img-left-100"}](https://www.aero.obs-mip.fr/)
+[![LA](/img/logo/logo_LA.png){: class="img-left-100"}](https://www.aero.obs-mip.fr/)
 The Laboratoire d'Aérologie ([LA](https://www.aero.obs-mip.fr)) is joint research unit hosted at  Université Paul Sabatier (UPS) in Toulouse. Its scientific activity aims to observe, model and understand the dynamic and physico-chemical processes that govern the evolution of the atmosphere and the coastal ocean.
 Prof Céline Mari is involved in 3DFireLab to support the atmospheric modelling development of the project, in particular through the [MesoNH](http://mesonh.aero.obs-mip.fr/mesonh54) model.
 <br>

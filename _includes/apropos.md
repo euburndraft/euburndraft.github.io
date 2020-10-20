@@ -1,4 +1,6 @@
-3DFireLab is funded by a fellowship of the [Marie Skłodowska-Curie Actions]("https://ec.europa.eu/research/mariecurieactions/") (MSCA) from the H2020 Research program developed by the European Union. Dr Ronan Paugam was awarded this fellowship at the 2019 MSCA call to set up the project at CERTEC, an institution of the University Politecnia de Calatunia (UPC) led by Dr Elsa Pastor and Prof Eulalia Planas. French institution from Toulouse in France are also involved, namely, CERFACS and two labs (CESBIO and LA) from the university Paul Sabatier (UPS). (see partners list [below](#partners))
+3DFireLab is funded by a fellowship of the [Marie Skłodowska-Curie Actions]("https://ec.europa.eu/research/mariecurieactions/") (MSCA) from the H2020 Research program developed by the European Union.
+
+[Ronan Paugam](https://ronanpaugam.github.io/) was awarded this fellowship at the 2019 MSCA call to set up the project at CERTEC, an institution of the University Politecnia de Calatunia (UPC) led by Dr Elsa Pastor and Prof Eulalia Planas. French institution from Toulouse in France are also involved, namely, CERFACS and two labs (CESBIO and LA) from the university Paul Sabatier (UPS). (see partners list [below](#partners))
 
 <!-- ![placeholder](img/fronts/EC-H2020-logo-1160x212.png "H2020"){:class="img-center-250"}-->
 
@@ -10,7 +12,10 @@ radiative transfer in open landscape scale vegetation fire. The end objective is
 
 3DfireLab builds on an initial system designed by Ronan Paugam during a previous
 European Space Agency project (run at Kings College London with Prof Martin Wooster), and the coupling of models of fire spread, atmospherics dynamics and radiative transfer
-developed by partners. It takes opportunity of (a) the wide experience of CERTEC in fire monitoring and modeling, (b) recent efforts to improve atmospheric representation in radiative transfer model (CESBIO), fire effects in atmospheric model (LA), Machine Learning application in fire observation (CERFACS) and (c) Ronan's experience in the fire remote sensing community.
+developed by partners.
+<!--<iframe src="https://prezi.com/embed/frizla-xtpz8/" id="iframe_container" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allow="autoplay; fullscreen" height="1015" width="560"></iframe> -->
+
+It takes opportunity of (a) the wide experience of CERTEC in fire monitoring and modeling, (b) recent efforts to improve atmospheric representation in radiative transfer model (CESBIO), fire effects in atmospheric model (LA), Machine Learning application in fire observation (CERFACS) and (c) Ronan's experience in the fire remote sensing community.
 
 Fire disturbance is parameterized in large scale atmospheric modeling (e.g. forecast model) via emission inventory based on EO products. A well-established approach is to use the Fire Radiative Power product (FRP) to estimate total fire energy emission and infer the associated fuel mass consumption and trace gas emission. So far, the conversion from emissive radiative energy to mass consumption is based on a linear relationship that has only been demonstrated for small scale fire
 and little evidence are currently present to validate it in the context of large-scale fire scenario.

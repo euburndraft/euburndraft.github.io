@@ -2,10 +2,17 @@
 layout: bokeh
 title: KNP14 Data
 ---
-This pages gathers fire observation from a fieldwork campaign organized by Prof Martin Wooster's group at Kings College London in Kruger National Park in 2014. Helicopter-borne images were collected for 4 savannah prescibed burns using a handhedl camera mount operating 3 cameras:
+This pages gathers fire observation from a fieldwork campaign organized in Kruger National Park in 2014.
+It was organized by Navashni Govender (South African National Parks), Martin Wooster (Kings College London), Wilfrid Schroeder (NOAA), Gernot Rucker (Zebris Geo-IT) and Anja Hoffman (GOFC Regional Networks).
+
+![np14 overview](/knp14/img/knp14Helico.png "knp14 overview")
+
+Helicopter-borne images were collected for 4 savannah prescribed burns using a handheld camera mount operating 3 cameras:
 * an Optris P400, a Long Wave Infra Red (LWIR) camera
-* an Agema 550, a Midle Infra Red (MIR) camera which does not see temperature below 470K.
+* an Agema 550, a Middle Infra Red (MIR) camera which does not see temperature below 470K.
 * and a Gopro Hero camera, hereafter the visible (VIS) camera which shows here gray scale images.
+
+![knp14 overview](/knp14/img/knp14Helico2.png "knp14 overview"){:class="img-center"}
 
 Follows an overview of the orhtorectified images processed with a suite of algorithms specifically designed for airborne fire observation collected at high frequency. The main requirement are: the camera points towards the plot along a near constant direction, scene background around the plot are kept as much as possible in the field of view, and the plot can be approximated as a plan surface.
 

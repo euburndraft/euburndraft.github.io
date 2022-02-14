@@ -6,7 +6,12 @@ image:
 thumbnail: "/img/posts/thumbnail/rose172_thumbnail.png"
 tags: [news]
 ---
-![rose 2013](/img/posts/full/rose172.png){: class="image-post"}
+<figure>
+  <img src="{{site.url}}/img/posts/full/rose172.png" alt="rose 2013" class="image-post"/>
+  <figcaption class="small text-center"> Fieldwork organized in Rose Township in 2013 by the Canadian Forest Service.</figcaption>
+</figure>
+<br>
+<br>
 
 <span style="color:#D35400">Rationale:</span>
 New developments in wildland fire modeling aim to better simulate fire front complex geometry when predicting its spread over the landscape during operational monitoring support. For example, coupled fire-atmosphere modeling systems can now simulate simultaneously the fire front spread and the induced plume, therefore including effects from fire-induced convection in the fire front propagation. With this same objective, new data assimilation algorithms are now developed to improve fire front position model prediction based on available observations. To help validate those developments, landscape-scale observations of experimental fire are crucial.

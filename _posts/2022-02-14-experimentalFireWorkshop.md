@@ -26,7 +26,7 @@ The workshop will be summarized by writing a review article with all participant
 <span style="color:#D35400">Organization:</span>
 A hybrid organization is planned, both in person and on line. Number of participant to be determined.
 
-<span style="color:#D35400">Date:</span> targeting the Week of the 26th of Sep 2022.
+<span style="color:#D35400">Date:</span> targeting the Week of the 26th of Sep 2022 for 2 or 3 days. 
 
 <span style="color:#D35400">Location: </span> Universitat Politècnica De Catalunya (UPC), Barcelona, Spain
 

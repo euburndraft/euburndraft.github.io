@@ -30,7 +30,7 @@ A hybrid organization is planned, both in person and on line. Number of particip
 
 <span style="color:#D35400">Location: </span> Universitat Politècnica De Catalunya (UPC), Barcelona, Spain.
 
-A list of potential <span style="color:#D35400">subjects:</span>
+A list of potential <span style="color:#D35400">subjects</span>:
 - Fuel Load: Lidar, structure from motion
 - Fuel segmentation.
 - Thermal Image acquisition: camera, drone, ...
@@ -42,7 +42,7 @@ A list of potential <span style="color:#D35400">subjects:</span>
 - Prescribed burn program planning
 - AI development based on experimental fire data.
 
-List of Attendees:
+List of <span style="color:#D35400">Attendees</span>:
 - in person: Nancy French, Albert Simeoni, Mark Finney, Ruddy Mell, Melanie Rochoux, Victor Penot, Elsa Pastor, Eulalia Planas   
 - in person (may be): Martin Wooster, Craig Clements, Miguel Valero, Matt Dickinson,
 - remotely: Alex Filkov, Andrew Sullivan, Xavier Viegas, Dereck McNamara

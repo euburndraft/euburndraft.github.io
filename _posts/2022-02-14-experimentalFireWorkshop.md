@@ -43,7 +43,7 @@ A list of potential <span style="color:#D35400">subjects</span>:
 - AI development based on experimental fire data.
 
 List of <span style="color:#D35400">Attendees</span>:
-- in person: Nancy French, Albert Simeoni, Mark Finney, Ruddy Mell, Melanie Rochoux, Victor Penot, Elsa Pastor, Eulalia Planas   
+- in person: Nancy French, Albert Simeoni, Mark Finney, Ruddy Mell, Melanie Rochoux, Victor Penot, Elsa Pastor, Eulalia Planas, Josh Johnston, Ronan Paugam    
 - in person (may be): Martin Wooster, Craig Clements, Miguel Valero, Matt Dickinson,
 - remotely: Alex Filkov, Andrew Sullivan, Xavier Viegas, Dereck McNamara
 - following the discussion later: Andy Hudak, Jean-Baptiste Filippi.

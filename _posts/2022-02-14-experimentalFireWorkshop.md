@@ -44,6 +44,6 @@ A list of potential <span style="color:#D35400">subjects</span>:
 
 List of <span style="color:#D35400">Attendees</span>:
 - in person: Nancy French, Mark Finney, Melanie Rochoux, Victor Penot, Elsa Pastor, Eulalia Planas, Josh Johnston, Ronan Paugam    
-- in person (may be): Martin Wooster, Craig Clements, Miguel Valero, Matt Dickinson, Albert Simeoni,
-- remotely: Alex Filkov, Andrew Sullivan, Xavier Viegas,  Ruddy Mell, Joe Paki
+- in person (may be): Martin Wooster, Craig Clements, Miguel Valero, Matt Dickinson, Albert Simeoni.
+- remotely: Alex Filkov, Andrew Sullivan, Xavier Viegas, Ruddy Mell, Joe Paki. 
 - following the discussion later: Andy Hudak, Jean-Baptiste Filippi, Derek McNamara.

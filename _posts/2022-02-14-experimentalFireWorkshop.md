@@ -29,7 +29,7 @@ A hybrid organization is planned, both in person and on line. Number of particip
 <span style="color:#D35400">Date:</span> Wed 28 - Fri 30th of September 2022.
 Meeting up in the afternoon on Wed. Wrap up midday on Friday. Detailed agenda to follow.
 
-<span style="color:#D35400">Location: </span> Campus Besos, Universitat Politècnica De Catalunya (UPC), Barcelona, Spain. see location [here](https://goo.gl/maps/vDCuYJMamfGpKU876).
+<span style="color:#D35400">Location: </span> Campus Besos, Universitat Politècnica De Catalunya (UPC), Barcelona, Spain. See location [here](https://goo.gl/maps/GHexPu88yymmAS1Y9).
 
 A list of potential <span style="color:#D35400">subjects</span>:
 - Fuel Load: Lidar, structure from motion

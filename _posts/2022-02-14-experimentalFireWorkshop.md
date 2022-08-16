@@ -26,9 +26,10 @@ The workshop will be summarized by writing a review article with all participant
 <span style="color:#D35400">Organization:</span>
 A hybrid organization is planned, both in person and on line. Number of participant to be determined.
 
-<span style="color:#D35400">Date:</span> 28-30 of September 2022 (detailed agenda to follow).
+<span style="color:#D35400">Date:</span> Wed 28 - Fri 30th of September 2022.
+Meeting up in the afternoon on Wed. Wrap up midday on Friday. Detailed agenda to follow.
 
-<span style="color:#D35400">Location: </span> Universitat Politècnica De Catalunya (UPC), Barcelona, Spain.
+<span style="color:#D35400">Location: </span> Campus Besos, Universitat Politècnica De Catalunya (UPC), Barcelona, Spain. see location [here](https://goo.gl/maps/vDCuYJMamfGpKU876).
 
 A list of potential <span style="color:#D35400">subjects</span>:
 - Fuel Load: Lidar, structure from motion

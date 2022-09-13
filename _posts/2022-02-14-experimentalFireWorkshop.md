@@ -26,11 +26,11 @@ The workshop will be summarized by writing a review article with all participant
 <span style="color:#D35400">Organization:</span>
 A hybrid organization is planned, both in person and on line. Number of participant to be determined.
 
-<span style="color:#D35400">Date:</span> 28-30 of September 2022 (detailed agenda to follow).
+<span style="color:#D35400">Date:</span> targeting the Week of the 3rd of Oct 2022 for 2 or 3 days.
 
-<span style="color:#D35400">Location: </span> Universitat Politècnica De Catalunya (UPC), Barcelona, Spain.
+<span style="color:#D35400">Location: </span> Universitat Politècnica De Catalunya (UPC), Barcelona, Spain
 
-A list of potential <span style="color:#D35400">subjects</span>:
+A list of potential <span style="color:#D35400">subjects:</span>
 - Fuel Load: Lidar, structure from motion
 - Fuel segmentation.
 - Thermal Image acquisition: camera, drone, ...
@@ -41,9 +41,3 @@ A list of potential <span style="color:#D35400">subjects</span>:
 - Data Management: presentation, repository, ..
 - Prescribed burn program planning
 - AI development based on experimental fire data.
-
-List of <span style="color:#D35400">Attendees</span>:
-- in person: Nancy French, Albert Simeoni, Mark Finney, Melanie Rochoux, Victor Penot, Elsa Pastor, Eulalia Planas, Josh Johnston, Ronan Paugam    
-- in person (may be): Martin Wooster, Craig Clements, Miguel Valero, Matt Dickinson,
-- remotely: Alex Filkov, Andrew Sullivan, Xavier Viegas, Ruddy Mell
-- following the discussion later: Andy Hudak, Jean-Baptiste Filippi, Derek McNamara.

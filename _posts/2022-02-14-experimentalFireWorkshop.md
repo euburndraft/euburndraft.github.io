@@ -44,6 +44,6 @@ A list of potential <span style="color:#D35400">subjects:</span>
 - AI development based on experimental fire data.
 
 List of <span style="color:#D35400">Attendees</span>:
-- in person: Collin McFayden, Nancy French, Martin Wooster, Victor Penot, Miguel Valero, Joshua Johnston, Ronan Paugam    
-- remotely: Alex Filkov, Ruddy Mell, Joe Paki, Albert Simeoni, Daniel Thompson, Ginny Marshall, Melanie Rochoux.
-- following the discussion: Andy Hudak, Jean-Baptiste Filippi, Mark Finney, Craig Clements, Marc Castellnou.
+- in person: Collin McFayden, Nancy French, Martin Wooster, Victor Penot, Miguel Valero, Ronan Paugam    
+- remotely: Alex Filkov, Ruddy Mell, Joe Paki, Albert Simeoni, Daniel Thompson, Ginny Marshall, Melanie Rochoux, Joshua Johnston.
+- following the discussion: Andy Hudak, Jean-Baptiste Filippi, Mark Finney, Craig Clements, Marc Castellnou, Domingos Viegas.

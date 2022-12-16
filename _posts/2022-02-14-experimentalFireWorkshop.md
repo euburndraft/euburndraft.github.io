@@ -14,7 +14,7 @@ tags: [news]
 <br>
 
 <span style="color:#D35400">Premise:</span>
-Despite the existence of numerous historical experimental dataset, experimental burning remains a critical component of wildfire research. With the acceleration of new technologies, modelling techniques and questions to be answered, the need for tailored experiments remains ever present and arguably more necessary than ever.
+Despite the existence of numerous historical experimental dataset, experimental burning remains a critical component of wildfire research. With the acceleration of new technologies, modeling techniques and questions to be answered, the need for tailored experiments remains ever present and arguably more necessary than ever.
 
 <span style="color:#D35400">Rationale:</span>
 New developments in wildland fire modeling aim to better simulate fire front complex geometry when predicting its spread over the landscape during operational monitoring support. For example, coupled fire-atmosphere modeling systems can now simulate simultaneously the fire front spread and the induced plume, therefore including effects from fire-induced convection in the fire front propagation. With this same objective, new data assimilation algorithms are now developed to improve fire front position model prediction based on available observations. To help validate those developments, landscape-scale observations of experimental fire are crucial.

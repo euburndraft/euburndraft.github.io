@@ -1,0 +1,20 @@
+<section id="motivation">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1 class="section-heading">Motivation:</h1>
+
+                <p class="text-faded">
+                {% capture p2 %}{% include motivation.md %}{% endcapture %}
+                {{ p2 | markdownify }}
+                </p>
+
+
+
+
+
+                <!-- <a href="#" class="btn btn-default btn-xl">Get Started!</a> -->
+            </div>
+        </div>
+    </div>
+</section>

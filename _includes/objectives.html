@@ -1,0 +1,17 @@
+<section class="bg-primary" id="objectives">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <h1 class="section-heading">Objectives:</h1>
+
+                <p class="text-faded">
+                {% capture p2 %}{% include objectives.md %}{% endcapture %}
+                {{ p2 | markdownify }}
+                </p>
+
+
+                <!-- <a href="#" class="btn btn-default btn-xl">Get Started!</a> -->
+            </div>
+        </div>
+    </div>
+</section>

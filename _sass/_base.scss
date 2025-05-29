@@ -48,8 +48,8 @@
       font-size: 16px;
       }
   li {
-      font-size: 16px;
-      line-height: 1.5;
+      font-size: 18px;
+      line-height: 2.0;
   }
 
   .bg-primary {
@@ -109,7 +109,7 @@
               color: darken($theme-primary, 10%);
           }
       }
-      @media (min-width: 768px) {
+      @media (min-width: 940px) {
       .navbar-header .navbar-brand {
           padding: 15px 15px;
       }}
@@ -137,7 +137,7 @@
               }
           }
       }
-      @media (min-width: 768px) {
+      @media (min-width: 940px) {
           background: hsla(0,0%,10%,.5);
           border-color: rgba(white, .3);
           .navbar-header .navbar-brand {
@@ -180,8 +180,8 @@
 
   header {
       width: 100%;
-      height: 40%;
-      background: url('../img/banner/knpGround.jpg');
+      height: 50%;
+      background: url('../img/banner/aveiro.png');
       background-size: cover;
       background-position: center;
 
@@ -197,12 +197,18 @@
           padding-left: 10px;
           padding-bottom: 5px;
           .header-content-inner {
-              h1 {
-                  font-size:10px;
-                  font-weight: 300;
+              h1{
+                  font-size: 50px;
+                  font-weight: 700;
                   //text-transform: uppercase;
                   text-align: right;
-                  max-width: 760px;}
+                  max-width: 300px;}
+              h2{
+                  font-size: 20px;
+                  font-weight: 400;
+                  //text-transform: uppercase;
+                  text-align: right;
+                  max-width: 300px;}
               hr {
                   margin: 30px auto;
               }
@@ -454,13 +460,13 @@
   ::-moz-selection {
       color: white;
       text-shadow: none;
-      background: $theme-dark;
+      background: #1b66a4;
   }
 
   ::selection {
       color: white;
       text-shadow: none;
-      background: $theme-dark;
+      background: #1b66a4;
   }
 
   img::selection {
@@ -579,7 +585,7 @@
     mask: url(../img/backbutton.svg) no-repeat center;
     mask-size: 30px;
     /* display: inline-block; */
-    @media (max-width: 768px) {
+    @media (max-width: 940px) {
       width: 25px;
       height: 25px;
       -webkit-mask-size: 20px 20px;
@@ -601,7 +607,7 @@
     mask: url(../img/downbutton.svg) no-repeat center;
     mask-size: 50px;
     display: inline-block;
-    @media (max-width: 768px) {
+    @media (max-width: 940px) {
       width: 40px;
       height: 30px;
       -webkit-mask-size: 30px 40px;
@@ -670,7 +676,7 @@
             line-height: 1.1;
             h2 {font-size: 30px}
        }
-      @media (max-width: 768px) {
+      @media (max-width: 940px) {
         span {font-size: 30px;}
         h2 {font-size: 25px}
         }
